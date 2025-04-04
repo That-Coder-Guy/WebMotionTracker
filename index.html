@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>AR Cube Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Import Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- Video element for camera feed -->
+    <video id="video" autoplay playsinline muted></video>
+
+    <!-- Canvas for Three.js rendering -->
+    <canvas id="canvas"></canvas>
+
+    <!-- Button to request permissions -->
+    <div id="startButtonContainer">
+        <button id="startButton">Start AR Experience</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
